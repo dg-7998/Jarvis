@@ -56,7 +56,7 @@ class MyFrame(wx.Frame):
         else:
             try:
                 # wolframalpha
-                app_id = "W4QQ6P-7UTV2E4TX8"
+                app_id = #your wolfram app_id
                 client = wolframalpha.Client(app_id)
                 res = client.query(input1)
                 ans = next(res.results).text
